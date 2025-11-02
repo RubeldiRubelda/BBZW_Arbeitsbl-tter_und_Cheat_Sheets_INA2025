@@ -1,4 +1,4 @@
-# BBZW_Arbeitsblätter_und_Cheat_Sheets_INA2025
+# BBZW_Arbeitsblätter_und_Cheat_Sheets_2025
 
 Hier sind hilfreiche Dokumente und Cheat sheets abgelegt. Vielleicht kannst du Sie Brauchen.
 ---------------------------------------------------------------------
