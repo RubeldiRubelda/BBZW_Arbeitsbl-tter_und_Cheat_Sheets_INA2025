@@ -1,9 +1,9 @@
 # BBZW_Arbeitsblätter_und_Cheat_Sheets_2025
 
-Hier sind hilfreiche Dokumente und Cheat sheets abgelegt. Vielleicht kannst du Sie Brauchen.
+Hier sind hilfreiche Dokumente und Cheat Sheets abgelegt.
 ---------------------------------------------------------------------
 
 
 Hast du auch ein Cheat Sheet oder Unterrichtsdateien?
 
---> Sende diese doch gerne als Pull Request ein (Oder als Issue).
+--> Sende diese doch gerne als Issue () ein.
