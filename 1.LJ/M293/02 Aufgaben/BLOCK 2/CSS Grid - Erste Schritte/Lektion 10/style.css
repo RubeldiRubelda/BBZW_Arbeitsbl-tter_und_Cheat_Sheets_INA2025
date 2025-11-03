@@ -1,0 +1,72 @@
+/* Layout for "Grid 1" - Lektion 10
+   - Uses CSS Grid only
+   - HTML structure must not be changed
+   - Implements the design shown in the exercise image
+*/
+
+/* Container */
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 140px 300px 160px;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+/* Common item styles */
+.grid-container > div{
+  border: 8px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Specific items and positions */
+.grid-item1{ /* blue top bar spanning full width */
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  background: #0000FF;
+  color: #fff;
+}
+
+.grid-item2{ /* tall red block on the left spanning two rows */
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+  background: #FF0000;
+  color: #fff;
+}
+
+.grid-item3{ /* light green block to the right of the red block */
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  background: #ADFF2F;
+  color: #111;
+}
+
+.grid-item4{ /* yellow block centered under the green block */
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+  background: #FFFF00;
+  color: #111;
+}
+
+/* Responsive: stack to 1 column on small screens */
+@media (max-width: 600px){
+  .grid-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 16px;
+    padding: 12px;
+  }
+  .grid-item1{grid-column: 1 / -1; grid-row: 1 / 2}
+  .grid-item2{grid-column: 1 / -1; grid-row: 2 / 3}
+  .grid-item3{grid-column: 1 / -1; grid-row: 3 / 4}
+  .grid-item4{grid-column: 1 / -1; grid-row: 4 / 5}
+  .grid-container > div{font-size:28px}
+}

@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+  background: lightblue;
+  padding: 20px;
+}
+
+.left {
+  background: lightgreen;
+  padding: 100px;
+  float: left;
+  box-sizing: border-box;
+      width: 50%;
+    height: 700px;
+}
+
+.right {
+  background: lightcoral;
+  padding: 100px;
+  float : right;
+  box-sizing: border-box;
+    width: 50%;
+    height: 700px;
+}
+
+.footer {
+  background: lightgray;
+  padding: 80px;
+  clear: both;
+  margin-top: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
