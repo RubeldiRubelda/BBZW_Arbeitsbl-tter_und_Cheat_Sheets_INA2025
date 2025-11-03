@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💾 Etwas Beitragen
+    url: https://github.com/RubeldiRubelda/BBZW_Arbeitsbl-tter_und_Cheat_Sheets_INA/issues/new?template=beitrag.yml
+    about: Lade neue Dateien oder Lösungen hoch
+  - name: ♻️ Dateien Anfragen
+    url: https://github.com/RubeldiRubelda/BBZW_Arbeitsbl-tter_und_Cheat_Sheets_INA/issues/new?template=anfrage.yml
+    about: Frag nach einer Datei, die du nicht findest
+  - name: ⚠️ Fehler / Falsche Dateien
+    url: https://github.com/RubeldiRubelda/BBZW_Arbeitsbl-tter_und_Cheat_Sheets_INA/issues/new?template=fehler.yml
+    about: Melde falsche oder fehlerhafte Dateien

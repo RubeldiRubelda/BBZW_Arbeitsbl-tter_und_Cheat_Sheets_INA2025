@@ -1,0 +1,12 @@
+name: ⚠️ Fehler / Falsche Dateien
+description: Melde falsche oder fehlerhafte Dateien
+title: "[Fehler] "
+labels: ["❌ Fehler"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was stimmt nicht?
+      placeholder: Z. B. Datei ist leer, falsches Fach, falsches Jahr …
+    validations:
+      required: true

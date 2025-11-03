@@ -1,0 +1,19 @@
+name: 💾 Etwas Beitragen
+description: Lade neue Dateien oder Lösungen hoch
+title: "[Beitrag] "
+labels: ["📁 Beitrag"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Was fügst du hinzu?
+      description: Beschreibe kurz, was du hochladen oder ergänzen möchtest.
+      placeholder: Z. B. Mathe-Test 2024, Kapitel 3 Lösungen …
+    validations:
+      required: true
+  - type: textarea
+    id: dateien
+    attributes:
+      label: Dateien
+      description: Lade hier deine Dateien an oder verlinke sie.
+      placeholder: Ziehe Dateien hierher oder gib den Link ein.

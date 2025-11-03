@@ -1,0 +1,12 @@
+name: ♻️ Dateien Anfragen
+description: Fehlt dir eine Datei? Frag hier nach!
+title: "[Anfrage] "
+labels: ["📦 Anfrage"]
+body:
+  - type: textarea
+    id: suchst
+    attributes:
+      label: Welche Datei suchst du?
+      placeholder: Z. B. Englisch Unit 5 Workbook Lösung
+    validations:
+      required: true
