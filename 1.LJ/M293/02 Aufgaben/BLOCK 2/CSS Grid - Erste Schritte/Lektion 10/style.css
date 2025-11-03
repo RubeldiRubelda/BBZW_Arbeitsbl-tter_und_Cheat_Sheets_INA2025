@@ -58,3 +58,32 @@
     grid-column: 2 / 5; /* centered at bottom */
     grid-row: 4 / 5;
 }
+@Media (max-width: 1000px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 150px);
+        gap: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .grid-item1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .grid-item2 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+    }
+
+    .grid-item3 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 6;
+    }
+
+    .grid-item4 {
+        grid-column: 1 / 2;
+        grid-row: 6 / 8;
+    }
+}
