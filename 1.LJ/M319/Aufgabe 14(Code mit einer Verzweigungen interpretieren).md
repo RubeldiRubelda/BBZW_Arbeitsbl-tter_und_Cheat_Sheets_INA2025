@@ -1,65 +1,65 @@
-### **Code:**
-
-**```cs**
+Code:
 
 
 
-**public static void Main(string\[] args)**
 
-**{**
 
-&nbsp;   \*\*Console.Write("Zahl 1: ");\*\*
+public static void Main(string\[] args)
 
-    \*\*int zahl1 = Convert.ToInt32(Console.ReadLine());\*\*
+{
 
-    
+Console.Write("Zahl 1: ");
 
-    \*\*Console.Write("Zahl 2: ");\*\*
-
-    \*\*int zahl2 = Convert.ToInt32(Console.ReadLine());\*\*
-
-    \*\*int zahl3 = zahl1 + 10;\*\*
+    int zahl1 = Convert.ToInt32(Console.ReadLine());
 
     
 
-    \*\*zahl1 = zahl2 - 10;\*\*
+    Console.Write("Zahl 2: ");
 
-    \*\*zahl2 = zahl3;\*\*
+    int zahl2 = Convert.ToInt32(Console.ReadLine());
 
-    
-
-    \*\*if (zahl2 % 10 >= 5)\*\*
-
-    \*\*{\*\*
-
-        \*\*zahl2 = zahl2 + 10 - (zahl2 % 10);\*\*
-
-    \*\*}\*\*
-
-    \*\*else\*\*
-
-    \*\*{\*\*
-
-        \*\*zahl2 = zahl2 - (zahl2 % 10);\*\*
-
-    \*\*}\*\*
+    int zahl3 = zahl1 + 10;
 
     
 
-    \*\*Console.WriteLine("Zahl 1 = " + zahl1);\*\*
+    zahl1 = zahl2 - 10;
 
-    \*\*Console.WriteLine("Zahl 2 = " + zahl2);\*\*
+    zahl2 = zahl3;
 
     
 
-    \*\*Console.ReadLine();\*\*
+    if (zahl2 % 10 >= 5)
+
+    {
+
+        zahl2 = zahl2 + 10 - (zahl2 % 10);
+
+    }
+
+    else
+
+    {
+
+        zahl2 = zahl2 - (zahl2 % 10);
+
+    }
+
+    
+
+    Console.WriteLine("Zahl 1 = " + zahl1);
+
+    Console.WriteLine("Zahl 2 = " + zahl2);
+
+    
+
+    Console.ReadLine();
 
 
-**}**
+}
 
 
 
-**```**
+```
 
 Eingabe: Zahl 1 = 22, Zahl 2 = 36
 
