@@ -1,7 +1,7 @@
 @echo off
 rem Batch: Datei in einen Ordner mit dem gleichen Namen verschieben
 rem Nutzung: Ziehe eine Datei auf diese .bat oder rufe sie mit dem Dateipfad als Parameter auf:
-rem    test.bat "C:\Pfad\zur\Datei.txt"
+rem test.bat "C:\Pfad\zur\Datei.txt"
 
 setlocal
 
